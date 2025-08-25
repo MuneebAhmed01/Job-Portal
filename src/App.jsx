@@ -12,6 +12,7 @@ import JobPost from './pages/JobPost'
 import SaveJob from './pages/SaveJob'
 import { ThemeProvider } from "@/components/theme-provider"
 import ProtectedRoute from './components/ProtectedRoute'
+import SignInPage from './pages/SignInPage'
 
 
 const router=createBrowserRouter([
@@ -22,6 +23,7 @@ const router=createBrowserRouter([
         path:"/",
         element:<LandingPage/>
       },
+       { path: "/sign-in", element: <SignInPage /> }, 
       {
         path:"/onboarding",
         element:<ProtectedRoute><OnBoarding/></ProtectedRoute>
