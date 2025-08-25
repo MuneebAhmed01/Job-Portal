@@ -25,7 +25,7 @@ const LandingPage = () => {
           <span className="flex items-center gap-2 sm:gap-6">
             and get
             <img
-              src="/logo.png"
+              src="/logo(1).png"
               className="h-14 sm:h-24 lg:h-32"
               alt="Hirrd Logo"
             />
@@ -50,7 +50,7 @@ const LandingPage = () => {
       <Carousel
         plugins={[
           Autoplay({
-            delay: 2000,
+            delay: 1500,
           }),
         ]}
         className="w-full py-10"
